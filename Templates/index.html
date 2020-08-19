@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Tick-Tac-Toe</title>
+    <link rel="stylesheet" href="{% static "CSS/index.css" %}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<p1 style= "position:left; top:10px;" > Welcome {{Username}}</p1>
+<a  style = "position:relative; left:1330px; top:10px;" href="{% url 'LoginPage' %}">log out </a>
+<div class="container">
+    <h1 align="center">Tic-Tac-Toe</h1>
+    <br><br><br>
+    <div class="play-area">
+        <div id="block_0" class="block"></div>
+        <div id="block_1" class="block"></div>
+        <div id="block_2" class="block"></div>
+        <div id="block_3" class="block"></div>
+        <div id="block_4" class="block"></div>
+        <div id="block_5" class="block"></div>
+        <div id="block_6" class="block"></div>
+        <div id="block_7" class="block"></div>
+        <div id="block_8" class="block"></div>
+    </div>
+    <br><br>
+    <div id="log"></div>
+    <br><br><br>
+    <button onclick="reset_board()">RESET</button>
+</div>
+<script src="{% static "JS/Game_Logic.js" %}"></script>
+
+
+</body>
+
+</html>
