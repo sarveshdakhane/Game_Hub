@@ -7,5 +7,3 @@ Steps:
 1) Clone the repository 
 2) You need to install Django framework (version  3.0.5 or above)
 3) cmd for run project --py manage.py runserver
-
-
