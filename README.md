@@ -1,5 +1,5 @@
 # Game_Hub
-WElcome TO My Project GameHub
+Welcome To My Project GameHub
 
 I made this website by Django,JS and MangoDB (No-SQL) DBMS
 
